@@ -1,7 +1,8 @@
 #Tomcat publish data
-#Tue Dec 29 19:18:00 KST 2020
+#Wed Dec 30 22:13:50 KST 2020
 org.eclipse.jst.jee.server\:Pjt003=C\:\\DEV\\apache-tomcat-8.5.61\\wtpwebapps\\Pjt003
 org.eclipse.jst.jee.server\:Pjt004=C\:\\DEV\\apache-tomcat-8.5.61\\wtpwebapps\\Pjt004
+org.eclipse.jst.jee.server\:Pjt005=C\:\\DEV\\apache-tomcat-8.5.61\\wtpwebapps\\Pjt005
 org.eclipse.jst.jee.server\:lec08Pjt001=C\:\\DEV\\apache-tomcat-8.5.61\\wtpwebapps\\lec08Pjt001
 org.eclipse.jst.jee.server\:ServletMappingTest=C\:\\DEV\\apache-tomcat-8.5.61\\wtpwebapps\\ServletMappingTest
 org.eclipse.jst.jee.server\:Pjt001=C\:\\DEV\\apache-tomcat-8.5.61\\wtpwebapps\\Pjt001

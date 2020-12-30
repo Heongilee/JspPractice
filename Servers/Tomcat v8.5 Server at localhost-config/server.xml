@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Pjt001" path="/Pjt001" reloadable="true" source="org.eclipse.jst.jee.server:Pjt001"/><Context docBase="ServletMappingTest" path="/ServletMappingTest" reloadable="true" source="org.eclipse.jst.jee.server:ServletMappingTest"/><Context docBase="Pjt002" path="/Pjt002" reloadable="true" source="org.eclipse.jst.jee.server:Pjt002"/><Context docBase="lec08Pjt001" path="/lec08Pjt001" reloadable="true" source="org.eclipse.jst.jee.server:lec08Pjt001"/><Context docBase="Pjt003" path="/Pjt003" reloadable="true" source="org.eclipse.jst.jee.server:Pjt003"/><Context docBase="Pjt004" path="/Pjt004" reloadable="true" source="org.eclipse.jst.jee.server:Pjt004"/></Host>
+      <Context docBase="Pjt001" path="/Pjt001" reloadable="true" source="org.eclipse.jst.jee.server:Pjt001"/><Context docBase="ServletMappingTest" path="/ServletMappingTest" reloadable="true" source="org.eclipse.jst.jee.server:ServletMappingTest"/><Context docBase="Pjt002" path="/Pjt002" reloadable="true" source="org.eclipse.jst.jee.server:Pjt002"/><Context docBase="lec08Pjt001" path="/lec08Pjt001" reloadable="true" source="org.eclipse.jst.jee.server:lec08Pjt001"/><Context docBase="Pjt003" path="/Pjt003" reloadable="true" source="org.eclipse.jst.jee.server:Pjt003"/><Context docBase="Pjt004" path="/Pjt004" reloadable="true" source="org.eclipse.jst.jee.server:Pjt004"/><Context docBase="Pjt005" path="/Pjt005" reloadable="true" source="org.eclipse.jst.jee.server:Pjt005"/></Host>
     </Engine>
   </Service>
 </Server>
