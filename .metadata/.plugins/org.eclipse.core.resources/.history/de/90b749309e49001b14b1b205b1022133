@@ -1,0 +1,42 @@
+<!-- 페이지 지시어 사용은 다음과 같이 쓰고 "이 페이지는 ~~ 하게 흘러 갑니다."라고 알려주는 부분. -->
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<!-- 선언 태그를 사용해 마음껏 자바 언어의 멤버변수와 멤버함수를 사용할 수 있다. -->
+		<%!
+			int num = 10;
+			String str = "jsp";
+			ArrayList<String> list = new ArrayList<String>();
+			
+			public void jspMethod() {
+			  System.out.println("Hello, jspMethod()");
+			}
+		%>
+		
+		<!-- Jsp 페이지에서 Java 코드를 넣을 수 있게 해주는 부분을 스크립틀릿 태그라고 한다. -->
+		<%
+			if(num > 0) {
+		%>
+		<p>num > 0</p>
+		<%
+			} else {
+		%>
+		<p>num <= 0</p>
+		<%
+			}
+		%>
+		
+		<!-- 표현식 태그 사용은 다음과 같습니다. -->
+		<p>num is <%= num %></p>
+		
+		<!-- 여기서 부터는 jsp 주석 입니다. -->
+		<%-- Hello Jsp world! --%>
+	</body>
+</html>
