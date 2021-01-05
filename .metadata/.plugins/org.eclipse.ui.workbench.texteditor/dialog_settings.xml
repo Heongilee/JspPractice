@@ -16,6 +16,7 @@
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
 			<item value="EUC-KR"/>
+			<item value="서블릿 매핑"/>
 			<item value="m_password"/>
 			<item value="EUC"/>
 		</list>
