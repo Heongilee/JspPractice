@@ -33,7 +33,7 @@ public class newBook extends HttpServlet {
 	  Statement stmt = null;
 	  
 	  try {
-      Class.forName(driver);
+	    Class.forName(driver);
       
       conn = DriverManager.getConnection(url, id, pw);
       stmt = conn.createStatement();  // sql 쿼리 전송 객체 생성.
