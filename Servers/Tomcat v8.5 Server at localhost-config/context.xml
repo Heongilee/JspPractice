@@ -25,4 +25,16 @@
     <!--
     <Manager pathname="" />
     -->
+    
+    <!-- Connection Pool 객체 생성 -->
+    <Resource
+    	auth="Container"
+    	driverClassName="oracle.jdbc.driver.OracleDriver"
+    	url="jdbc:oracle:thin:@localhost:1521:xe"
+    	username="C##SCOTT"
+    	password="TIGER"
+    	name="jdbc/Oracle18g"
+    	type="javax.sql.DataSource"
+    	maxActive="4"
+    	maxWait="10000" />
 </Context>

@@ -27,6 +27,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\MyGit\JavaWorkSpace"/>
 			<item value="C:\Users\gjsrl\Documents\LaneLevine\Inflearn\실전 JSP (renew ver.) - 신입 프로그래머를 위한 강좌\lec08Pjt001"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
